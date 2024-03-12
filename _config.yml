@@ -1,0 +1,22 @@
+# Site settings
+title: Alexis Malagnino
+description:  Welcome to my personal website
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Alexis Malagnino
+user_description: I'm a Doctor of Biology from France, constantly seeking new challenges; no endeavor is too daunting or complex for me. Recently, I have been delving into the realm of Wildlife Ecology, conducting research on mountain goats. I have been working with a California-based startup called Alpine Insights, dedicated to enhancing our understanding of wildlife populations and ecosystems through innovative research initiatives. I am the inaugural biologist they recruited to contribute to their groundbreaking projects.
+user_title: Doctor of Biology
+email: alexismalagnino@gmail.com
+# twitter_username: lorem_ipsum
+instagram_username: macmala42
+facebook_username: alexis.malagnino
+# linkedin_username: murraco
+# github_username:  murraco
+# medium_username: lorem_ipsum
+# medium_url: lorem_ipsum.medium.com
+# gplus_username:  lorem_ipsum
+
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
+
