@@ -1,17 +1,11 @@
-<div class="user-details">
-    <h1>Contact me</h1>
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-            <label>Your email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Object: <input type="text" name="object" /></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
+<div class="feedback-card">
+    <div class="feedback-header">
+        CONTACT ME
+        </div>
+    <form class="feedback-body" name="contact" method="POST" data-netlify="true">
+        <input class="feedback-body__email" placeholder="Email" type="email" name="email" />
+        <input class="feedback-body__email" placeholder="Object" type="text" name="object" />
+        <textarea  class="feedback-body__message" placeholder="Message" name="message"></textarea>
+        <button class="feedback-body__submit" type="submit">Send</button>
     </form>
 </div>

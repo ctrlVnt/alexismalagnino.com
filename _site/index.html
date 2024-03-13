@@ -16,7 +16,7 @@
   <body>
       <div id="particles-js">
   <div class="header">
-    <img src="assets/profile.jpg" alt="Description of the image" style="border-radius: 50%; height: 30vh;">
+    <img class="profile" src="assets/profile.jpg" alt="Description of the image">
       <h1>
         <span class="site-title">Alexis Malagnino</span>
         <span class="site-description">Doctor of Biology</span>
@@ -48,38 +48,36 @@
   <h1>About me</h1>
   <p>I'm a Doctor of Biology from France ! My PhD focuses on the influence of environmental constraints on individuals' foraging strategies in an alpine chamois population. In the context of global warming, I have been aiming to understand how individuals may adjust their space use and activity budgets in response to summer extreme temperatures, while still addressing their energetic needs, and investigating the potential opportunity costs related to behavioural thermoregulation.</p>
   <p>To discover more about my publications:</p>
-  <button> <a href="https://www.researchgate.net/profile/Alexis-Malagnino">click here</a></button>
+  <button class="learn-more" onclick="window.location.href='https://www.researchgate.net/profile/Alexis-Malagnino'">click here</button>
 </div>
 <div class="user">
   <div class="tech">
     <h3>Location</h3>
-    <p>Chambéry</p>
+    <p>Based in Chambéry, France</p>
   </div>
   <div class="tech">
-    <h3>University</h3>
-    <p>Université Grenoble Alpes & Swansea University · LECA-Laboratoire d'Ecologie Alpine & SLAM-Swansea Lab for Animal Movement</p>
+    <h3>Universities</h3>
+    <p>PhD from Université Grenoble Alpes & Swansea University</p>
+  </div>
+  <div class="tech">
+    <h3>Research Institutes</h3>
+    <p>Formerly associated with LECA (Laboratoire d'Ecologie Alpine) & SLAM (Swansea Lab for Animal Movement)</p>
   </div>
 </div>
 
-      </section>
-      <section id="contact">
-        <div class="user-details">
-    <h1>Contact me</h1>
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-            <label>Your email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Object: <input type="text" name="object" /></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
+        <div id="contact">
+          <div class="feedback-card">
+    <div class="feedback-header">
+        CONTACT ME
+        </div>
+    <form class="feedback-body" name="contact" method="POST" data-netlify="true">
+        <input class="feedback-body__email" placeholder="Email" type="email" name="email" />
+        <input class="feedback-body__email" placeholder="Object" type="text" name="object" />
+        <textarea  class="feedback-body__message" placeholder="Message" name="message"></textarea>
+        <button class="feedback-body__submit" type="submit">Send</button>
     </form>
 </div>
+        </div>
       </section>
         
       <footer class="footer">

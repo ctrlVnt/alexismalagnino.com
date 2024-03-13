@@ -19,4 +19,3 @@ facebook_username: alexis.malagnino
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
-
