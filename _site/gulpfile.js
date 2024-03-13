@@ -14,7 +14,7 @@ var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'bundle';
  * Build the Jekyll Site
  * runs a child process in node that runs the jekyll commands
  */
-gulp.task('jekyll-build', function (done) {
+gulp.task('jekyll-build',['sass'], function (done) {
 	return cp.spawn(jekyllCommand, ['exec', 'jekyll', 'build'], {stdio: 'inherit'}).on('close', done);
 });
 
