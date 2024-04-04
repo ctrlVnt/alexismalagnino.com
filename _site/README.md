@@ -54,6 +54,17 @@ In order to compile the assets and run `Jekyll` locally you need to follow those
 3. Run `bundle exec jekyll build`
 4. Start and http-server in the folder `_site`
 
+# Compile files
+
+You need to manually update changes with following command:
+
+`gulp sass`
+
+`gulp js`
+
+`gulp fonts`
+
+
 # Contribution
 
 - Report issues
