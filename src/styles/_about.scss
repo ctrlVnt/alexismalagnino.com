@@ -125,16 +125,6 @@
     font-weight: 400;
   }
 
-  a{
-    text-decoration: none;
-    font-size: 25px;
-    color: #000;
-  }
-
-  a:hover{
-    color: #b18597;
-  }
-
   p {
     font-size: 16px;
   }
@@ -235,5 +225,18 @@
 
    hr{
     margin-top: 30px;
+   }
+
+   @media screen and (max-width: 500px) {
+    
+    .research-img img {
+      width: 100%;
+      height: auto;
+    }
+
+    .research-img img:hover,
+    .research-img img:active {
+
+    }
    }
 }
