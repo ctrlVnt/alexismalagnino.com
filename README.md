@@ -70,8 +70,3 @@ You need to manually update changes with following command:
 - Report issues
 - Open pull request with improvements
 - Spread the word
-- Reach out to me directly at <mauriurraco@gmail.com>
-
-# Credits
-
-- [Nathan Randecker](https://github.com/nrandecker)
